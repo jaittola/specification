@@ -244,6 +244,10 @@
             "$ref": "../definitions.json#/definitions/numberValue",
             "description": "Vessel speed through the water in m/s"
         },
+        "speedParallelToWind": {
+            "$ref": "../definitions.json#/definitions/numberValue",
+            "description": "Vessel speed component parallel to wind in m/s. > 0 is upwind, < 0 is downwind"
+        },
         "log": {
             "$ref": "../definitions.json#/definitions/numberValue",
             "description": "Log value in meters"
